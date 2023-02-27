@@ -51,9 +51,9 @@ Websocket API
 
 Annexure
 - [Alert Type](#md-alert_type)
-- [Report Type](#md-Report_Type)
-- [Status Type](#md-Status_Type)
-- [Internal Status Type](#md-Internal_Status_Type)
+- [Report Type](#md-report_type)
+- [Status Type](#md-status_type)
+- [Internal Status Type](#md-internal_status_type)
 
 Example
 - [getting started](#md-example-basic)
@@ -2095,6 +2095,58 @@ send a list of instruments to stop watch
 | LTP  |Both > and < |LMT_BOS_O | depending on scrip 'pp' from search results allow 2/4 precision|
 
 Note: All alert types with _O appended will work for GTT order types. Example: to set GTT order when LTP goes above 1,000, set alert type as LTP_A_O
+
+
+#### <a name="md-report_type"></a>Report Type:
+
+| Possible Values | 
+| --- | 
+|NewAck| 
+|ModAck| 
+|CanAck| 
+|PendingNew| 
+|PendingReplace| 
+|PendingCancel|     
+|New| 
+|Replaced| 
+|Canceled| 
+|Fill| 
+|Rejected| 
+|ReplaceRejected| 
+|CancelRejected| 
+|INVALID_REPORT_TYPE| 
+
+#### <a name="md-status_type"></a>Status Type:
+
+| Possible Values | 
+| --- | 
+|PENDING| 
+|CANCELED| 
+|OPEN| 
+|REJECTED| 
+|COMPLETE| 
+|TRIGGER_PENDING| 
+|INVALID_STATUS_TYPE| 
+
+#### <a name="md-internal_status_type"></a>Internal Status Type:
+
+| Possible Values | 
+| --- | 
+|COMPLETE| 
+|PARTIAL FILL| 
+|REJECTED| 
+|CANCELED| 
+|MODIFY PENDING| 
+|CANCEL PENDING| 
+|ORDER PENDING| 
+|OPEN| 
+|ORDER ACK| 
+|MODIFY ACK| 
+|CANCEL ACK| 
+|TRIGGER_PENDING| 
+|AMO OPEN| 
+|AMO MODIFIED| 
+|AMO CANCELED| 
 
 
 ****
