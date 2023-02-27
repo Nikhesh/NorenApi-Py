@@ -50,7 +50,7 @@ Websocket API
 - [unsubscribe](#md-unsubscribe)
 
 Annexure
-- [Alert Type](#md-Alert_Type)
+- [Alert Type](#md-alert_type)
 - [Report Type](#md-Report_Type)
 - [Status Type](#md-Status_Type)
 - [Internal Status Type](#md-Internal_Status_Type)
@@ -2075,7 +2075,7 @@ Accept for t, e, and tk other fields may / may not be present.
 #### <a name="md-unsubscribe"></a> unsubscribe()
 send a list of instruments to stop watch
 
-#### <a name="#md-Alert_Type"></a>Alert Type:
+#### <a name="md-alert_type"></a>Alert Type:
 
 | Alert Criteria |  Condition| Alert type|Transformation and data validations|
 | --- | --- | --- | ---|
