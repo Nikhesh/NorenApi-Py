@@ -50,10 +50,10 @@ Websocket API
 - [unsubscribe](#md-unsubscribe)
 
 Annexure
--[Alert Type](#md-Alert_Type)
--[Report Type](#md-Report_Type)
--[Status Type](#md-Status_Type)
--[Internal Status Type](#md-Internal_Status_Type)
+- [Alert Type](#md-Alert_Type)
+- [Report Type](#md-Report_Type)
+- [Status Type](#md-Status_Type)
+- [Internal Status Type](#md-Internal_Status_Type)
 
 Example
 - [getting started](#md-example-basic)
