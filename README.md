@@ -2153,7 +2153,7 @@ Note: All alert types with _O appended will work for GTT order types. Example: t
 ## <a name="md-example-basic"></a> Example - Getting Started
 ## Login Instructions
 
-## Login via TOTP (Time-based One-Time Password)
+### Login via TOTP (Time-based One-Time Password)
 
 1. **User Login**
    - Navigate to the website and log in with your credentials.
@@ -2169,7 +2169,7 @@ Note: All alert types with _O appended will work for GTT order types. Example: t
      - **Python script**:
        - Refer to [pyotp GitHub Repository](https://github.com/pyauth/pyotp) for generating TOTP in Python.
 
-## Login via OTP (One-Time Password)
+### Login via OTP (One-Time Password)
 
 1. **Generate OTP**
    - Follow the instructions in the [Generate OTP script](https://github.com/trade-smart/TradesmartApi-Py/blob/main/tests/test_forgotpassword_OTP.py).
