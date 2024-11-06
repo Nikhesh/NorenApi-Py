@@ -2188,7 +2188,7 @@ This package supports both **UAT** and **Live** environments. By default, the co
 The default configuration connects to the **UAT** server for testing:
 
 ```python
-class StarApiPy(NorenApi):
+class NorenApiPy(NorenApi):
     def __init__(self, *args, **kwargs):
         super(StarApiPy, self).__init__(
             host='https://UAT_server.com/NorenWClientTP', 
@@ -2202,7 +2202,7 @@ To connect to the live production environment, you need to change the URLs to th
 
 Live Server Configuration
 ```python
-class StarApiPy(NorenApi):
+class NorenApiPy(NorenApi):
     def __init__(self, *args, **kwargs):
         super(StarApiPy, self).__init__(
             host='https://Live_server.com/NorenWClientTP', 
